@@ -1,0 +1,102 @@
+/* Style the navigation bar */
+nav {
+    background-color: #4CAF50; /* Consistent with the product card button */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  nav a:hover {
+    background-color: #45a049; /* Consistent with the product card button hover */
+    color: white;
+  }
+  
+  /* Add an active class to highlight the current page */
+  nav a.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Additional styling for cart button */
+  nav .cart-button {
+    float: right;
+    background-color: #f39c12;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  nav .cart-button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Style the container for the content */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Product list styles */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .product-card button:hover {
+    background-color: #45a049;
+  }
+  

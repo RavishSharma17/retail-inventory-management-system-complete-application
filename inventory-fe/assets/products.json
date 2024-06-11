@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Chair 1",
+      "category": "Chairs",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "Table 1",
+      "category": "Tables",
+      "price": 150
+    },
+    {
+      "id": 3,
+      "name": "Dining Top 1",
+      "category": "Dining tops",
+      "price": 200
+    }
+  ]
+  
